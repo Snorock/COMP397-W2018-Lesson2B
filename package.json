@@ -20,6 +20,8 @@
     "@types/easeljs": "^1.0.0"
   },
   "dependencies": {
+    "@types/createjs": "^0.0.29",
+    "@types/typescript": "^2.0.0",
     "easeljs": "^1.0.2",
     "preload": "^0.1.0",
     "preloadjs": "^1.0.1",
