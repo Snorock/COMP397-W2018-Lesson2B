@@ -18,5 +18,13 @@
   "homepage": "https://github.com/Snorock/COMP397-W2018-Lesson2B#readme",
   "devDependencies": {
     "@types/easeljs": "^1.0.0"
+  },
+  "dependencies": {
+    "easeljs": "^1.0.2",
+    "preload": "^0.1.0",
+    "preloadjs": "^1.0.1",
+    "save": "^2.3.2",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
   }
 }
