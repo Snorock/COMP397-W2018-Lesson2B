@@ -34,6 +34,7 @@
         clickMeButton.regY = clickMeButton.getBounds().height * 0.5;
         stage.addChild(clickMeButton);
         stage.addChild(helloLabel);
+        clickMeButton.on("click", clickMeButtonClick);
     }
     window.onload = Init;
 })();

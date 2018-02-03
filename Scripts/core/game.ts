@@ -39,13 +39,15 @@
 
     helloLabel = new objects.Label("Hi, World!", "40px", "Consolas", "#000000", 320, 240, true);
 
+
     clickMeButton = new objects.Button("./Assets/Images/clickMeButton.png",320,340);
-    clickMeButton.regX = clickMeButton.getBounds().width*0.5;
-    clickMeButton.regY = clickMeButton.getBounds().height*0.5;
+    clickMeButton.regX = clickMeButton.getBounds().width * 0.5;
+    clickMeButton.regY = clickMeButton.getBounds().height * 0.5;
 
     
     stage.addChild(clickMeButton);
     stage.addChild(helloLabel);
+    clickMeButton.on("click", clickMeButtonClick);
 
   }
 
